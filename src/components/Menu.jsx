@@ -10,7 +10,7 @@ const Menu = () => {
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto gap-5">
             <Nav.Link as={Link} to="/" >Home</Nav.Link>
              <Nav.Link as={Link}to="/about">About</Nav.Link>
             <Nav.Link as={Link}to="/blog">Blog</Nav.Link>
