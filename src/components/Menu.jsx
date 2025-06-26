@@ -1,13 +1,15 @@
 import React from 'react'
 import { Nav,Navbar,Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-
+import logo from "../assets/logo2.jpg"
 const Menu = () => {
   return (
     <>
     <Navbar expand="lg" style={{backgroundColor:'aqua'}}>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src={logo} alt='logo'/>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
